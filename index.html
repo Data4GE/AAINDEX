@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcade Anvil — Site Index</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20430%20260%27%3E%3Cdefs%3E%3Cmask%20id%3D%27cut%27%3E%3Crect%20width%3D%27430%27%20height%3D%27260%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%27236%27%20cy%3D%2791%27%20r%3D%2731%27%20fill%3D%27black%27%2F%3E%3Crect%20x%3D%27229%27%20y%3D%27110%27%20width%3D%2715%27%20height%3D%27101%27%20fill%3D%27black%27%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%27%23ffffff%27%20mask%3D%27url%28%23cut%29%27%3E%3Cpath%20d%3D%27M24%2016%20H320%20V29%20Q320%2040%20329%2040%20Q337%2040%20337%2029%20V16%20H404%20V67%20H375%20C338%2067%20312%2078%20298%20105%20C282%20112%20271%20127%20270%20147%20C269%20167%20285%20181%20324%20193%20V219%20H328%20V223%20H136%20V196%20C169%20188%20191%20170%20191%20147%20C191%20124%20170%20109%20143%20108%20H126%20V89%20C77%2075%2042%2053%2024%2025%20Z%27%2F%3E%3Cpath%20d%3D%27M136%20194%20H328%20V223%20H136%20Z%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap');
+:root{color-scheme:dark;--bg:#080317;--cyan:#13fff1;--pink:#ff19d8;--yellow:#fff329;--text:#f9f4ff;--muted:#c8c0e1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#050311;color:var(--text);font:14px/1.55 'Space Mono',Consolas,monospace}
+.layout{position:relative;isolation:isolate;min-height:calc(100vh - 34px);margin:17px;border:5px solid #4bcaff;border-bottom-color:var(--pink);border-radius:24px;box-shadow:0 0 0 3px #120a38,inset 0 0 22px #5422c744,0 0 28px #a524ff44;overflow:hidden;background:radial-gradient(ellipse at 82% 46%,#5e0c88 0%,#210839 29%,transparent 56%),linear-gradient(#0b0621,#10051f)}
+.layout:before{content:"";position:absolute;z-index:-1;inset:0;background-image:radial-gradient(#79adff 1px,transparent 2px),radial-gradient(#ef4ef8 1px,transparent 2px);background-size:113px 139px,167px 173px;background-position:8px 23px,70px 44px;opacity:.65;pointer-events:none}
+.layout:after{content:"";position:absolute;bottom:12px;left:0;right:0;height:5px;background:repeating-linear-gradient(90deg,#fff52b 0 30px,#fb26ca 30px 65px,#21fff3 65px 100px);box-shadow:0 0 8px #ff25d0}
+.site-header{position:relative;z-index:2;display:flex;align-items:center;gap:23px;margin:23px 27px 12px;padding-bottom:18px;border-bottom:4px solid transparent;border-image:linear-gradient(90deg,var(--pink) 0 38%,var(--yellow) 38% 70%,var(--cyan) 70%) 1}
+.brand-icon{width:106px;min-width:106px;height:70px;display:flex;align-items:center;justify-content:center;border-right:4px solid var(--pink);padding-right:18px}
+.brand-icon img{width:100%;height:auto;filter:drop-shadow(0 3px 0 #000)}
+.header-titles{min-width:0;flex:1}.header-top{display:flex;align-items:baseline;gap:34px;flex-wrap:wrap}h1{margin:0;font-family:'Press Start 2P',monospace;font-size:clamp(18px,2.55vw,39px);line-height:1.5;color:#fff;text-shadow:3px 3px 0 var(--pink),-2px -2px 0 var(--pink),0 0 15px #e826c0;letter-spacing:1px}.header-kicker{font-family:'Press Start 2P',monospace;font-size:clamp(11px,1.35vw,20px);color:var(--cyan);white-space:nowrap}.subtitle{margin:4px 0 0;color:#d7d1ee;letter-spacing:2px;font-size:12px;text-transform:uppercase}
+.content{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,58%) minmax(0,42%);align-items:start;padding:10px 24px 45px;gap:12px}main{min-width:0}.toolbar{display:flex;align-items:stretch;gap:10px;flex-wrap:wrap;margin:0 0 19px}input{flex:1 1 230px;min-width:0;background:#0c0826dd;border:3px solid var(--cyan);border-radius:11px;padding:12px 15px;color:white;font:inherit;box-shadow:0 0 10px #08f6ed33}input::placeholder{color:#c3b7d6}button{cursor:pointer;font:700 12px/1.4 'Space Mono',monospace}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid white;outline-offset:3px}.action{padding:11px 12px;border:3px solid var(--yellow);border-radius:10px;color:var(--yellow);background:#130926ed;white-space:nowrap;box-shadow:0 0 9px #ffe60026}.action:last-child{border-color:var(--pink);color:var(--pink)}.action:hover{background:#3a1554}
+.directory{border:3px solid #4ab8ff;border-left-color:var(--cyan);border-bottom-color:var(--cyan);border-radius:13px;background:#0c0629ce;box-shadow:inset 0 0 24px #5d129522,0 0 12px #00e9ff24;padding:10px 9px 22px;min-height:380px}.tree{margin:0;padding:0;list-style:none}.tree .tree{margin-left:23px;padding-left:15px;border-left:2px dashed #fb27d0}.node{position:relative;padding:5px 0}.tree .tree>.node:before{content:"";position:absolute;left:-15px;top:21px;width:13px;border-top:2px dashed var(--pink)}.node-head{display:flex;align-items:flex-start;gap:8px;min-width:0}.toggle{background:none;border:0;color:#fff;width:20px;min-width:20px;padding:2px 0;font-size:18px;line-height:1.35}.toggle.blank{visibility:hidden}.node-icon{font-size:21px;line-height:1.25;min-width:26px;text-align:center;filter:drop-shadow(0 0 2px #ff29cc)}.node-body{min-width:0;flex:1}.node-title{color:var(--cyan);font-weight:700;font-size:14px;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.node-title:hover{color:#fff;text-shadow:0 0 8px var(--cyan)}.node-description{font-size:12px;color:#ddd7f0;margin-top:1px}.node-url{display:none}.node-folder>.node-head .node-title{color:var(--cyan)}.tree-root>.node>.node-head{background:linear-gradient(90deg,#4a096b,#410c63c9);border:2px solid #ba14d7;border-radius:7px;padding:3px 8px;margin:0 0 6px}.tree-root>.node>.node-head .node-title{font-family:'Press Start 2P',monospace;color:var(--yellow);font-size:clamp(11px,1.2vw,17px);text-decoration:none;line-height:1.8}.tree-root>.node>.node-head .node-description{display:none}.tree-root>.node{margin-bottom:15px}.tree-root>.node>.node-head .node-icon{font-size:24px}.hidden{display:none!important}.empty{padding:20px;color:var(--muted)}
+.art{position:relative;min-height:670px;align-self:stretch;overflow:hidden}.sun{position:absolute;top:10%;left:11%;width:82%;aspect-ratio:1;border-radius:50%;background:repeating-linear-gradient(to bottom,transparent 0 60%,#6b0c86 60% 62%,transparent 62% 68%),linear-gradient(180deg,#ffe42a 0%,#ff8c23 36%,#ff1b8f 72%,#db00b7 100%);box-shadow:0 0 90px #fb1ec277;clip-path:circle(50%)}.grid-floor{position:absolute;inset:54% -60% -10%;transform:perspective(290px) rotateX(58deg);transform-origin:top;background:linear-gradient(#f51ec9 2px,transparent 2px) 0 0/100% 42px,linear-gradient(90deg,#ff25c5 2px,transparent 2px) 0 0/55px 100%;box-shadow:0 -12px 30px #fb1cc5;opacity:.85}.art-logo{position:absolute;z-index:2;top:29%;left:2%;width:98%;filter:drop-shadow(6px 6px 0 #000) drop-shadow(-3px -3px 0 #000) drop-shadow(0 0 12px #000a)}.art-logo img{width:100%;height:auto}.art-label{display:none}
+@media(max-width:1000px){.content{grid-template-columns:minmax(0,62%) minmax(0,38%)}.header-top{gap:10px}.art{min-height:530px}}@media(max-width:720px){.layout{margin:8px;min-height:calc(100vh - 16px);border-radius:15px}.site-header{margin:15px 13px 9px;gap:11px}.brand-icon{width:56px;min-width:56px;height:53px;padding-right:8px}.header-top{display:block}h1{font-size:clamp(15px,4.2vw,23px)}.header-kicker{font-size:11px}.subtitle{font-size:9px;letter-spacing:1px}.content{display:flex;flex-direction:column;padding:8px 10px 38px}main{width:100%}.directory{min-height:0}.art{width:100%;min-height:340px}.sun{width:63%;left:19%;top:2%}.art-logo{width:72%;left:14%;top:19%}.grid-floor{inset:58% -50% -15%}.tree-root>.node>.node-head .node-title{font-size:11px}.toolbar{gap:7px}.action{flex:1}}
+</style>
+</head>
+<body>
+<!--
+===============================================================================
+ARCADE ANVIL INDEX — QUICK EDITING TUTORIAL (NOT SHOWN ON THE WEBSITE)
+===============================================================================
+
+1. Find the `const pages = [` list in the <script> below.
+2. Add ONE line for each new link or folder:
+
+   { level: 1, title: "New Site", url: "https://new.arcadeanvil.com", description: "What it does" },
+
+3. LEVEL controls nesting:
+   level: 0 = top-level section (e.g. Main Site / Subdomains)
+   level: 1 = item inside that section
+   level: 2 = page inside a level-1 item (e.g. About Us under www.arcadeanvil.com)
+   level: 3 = page nested one more level, etc.
+
+   EXAMPLE — add a page under the Shows subdomain:
+   { level: 1, title: "Shows", url: "https://shows.arcadeanvil.com", description: "Personal and Custom Watching Tool" },
+   { level: 2, title: "Watchlist", url: "https://shows.arcadeanvil.com/watchlist", description: "My watchlist" },
+
+4. Every item with a URL is CLICKABLE, even if it has child entries.
+   Omit `url` to make a non-clickable section heading.
+   The `description` is optional; omit it if you don't need one.
+
+5. Keep children DIRECTLY BELOW their parent. Do not jump from level 0 to 2.
+   Use double quotes around text; keep the comma at the end of each line.
+
+6. CHANGE THE RIGHT-SIDE IMAGE:
+   In the <script> find `const backgroundImage = ...` and replace its value.
+   The default is the white Arcade Anvil SVG (favicon uses the red version).
+   Set it to a file path, e.g. `const backgroundImage = "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20430%20260%27%3E%3Cdefs%3E%3Cmask%20id%3D%27cut%27%3E%3Crect%20width%3D%27430%27%20height%3D%27260%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%27236%27%20cy%3D%2791%27%20r%3D%2731%27%20fill%3D%27black%27%2F%3E%3Crect%20x%3D%27229%27%20y%3D%27110%27%20width%3D%2715%27%20height%3D%27101%27%20fill%3D%27black%27%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%27%23ffffff%27%20stroke%3D%27%23080411%27%20stroke-width%3D%278%27%20stroke-linejoin%3D%27round%27%20paint-order%3D%27stroke%20fill%27%20mask%3D%27url%28%23cut%29%27%3E%3Cpath%20d%3D%27M24%2016%20H320%20V29%20Q320%2040%20329%2040%20Q337%2040%20337%2029%20V16%20H404%20V67%20H375%20C338%2067%20312%2078%20298%20105%20C282%20112%20271%20127%20270%20147%20C269%20167%20285%20181%20324%20193%20V219%20H328%20V223%20H136%20V196%20C169%20188%20191%20170%20191%20147%20C191%20124%20170%20109%20143%20108%20H126%20V89%20C77%2075%2042%2053%2024%2025%20Z%27%2F%3E%3Cpath%20d%3D%27M136%20194%20H328%20V223%20H136%20Z%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E";`
+   or a complete image URL. Leave it blank for the gradient placeholder.
+   The image is part of the document and SCROLLS with the page (not fixed).
+
+7. Save this file as index.html and upload it to your website.
+   This tutorial is an HTML comment and will NOT appear on the rendered page.
+   Note: HTML comments can still be read using View Source; don't put secrets here.
+===============================================================================
+-->
+<div class="layout">
+  <header class="site-header"><div class="brand-icon"><img id="header-logo" alt="" /></div><div class="header-titles"><div class="header-top"><h1>ARCADE ANVIL</h1><span class="header-kicker">SITE INDEX</span></div><p class="subtitle">WEBSITES · TOOLS · PROJECTS · INDEX</p></div></header>
+  <div class="content"><main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search sites and descriptions…" aria-label="Search sites">
+      <button class="action" id="expand" type="button">Expand all</button>
+      <button class="action" id="collapse" type="button">Collapse all</button>
+    </div>
+    <div class="directory"><div id="tree" aria-label="Website directory"></div></div>
+    <p id="empty" class="empty hidden">No matching links found.</p>
+  </main>
+  <aside class="art" aria-hidden="true"><div class="sun"></div><div class="grid-floor"></div><div class="art-logo"><img id="large-logo" alt="" /></div></aside></div>
+</div>
+<script>
+  // EDIT YOUR LINKS HERE. Add one line per site or page.
+  const pages = [
+    { level: 0, title: "Main Site", description: "Arcade Anvil main website" },
+    { level: 1, title: "www.arcadeanvil.com", url: "https://www.arcadeanvil.com", description: "Visit the main Arcade Anvil site" },
+    { level: 2, title: "About Us", url: "https://www.arcadeanvil.com/aboutus", description: "About Arcade Anvil" },
+
+    { level: 0, title: "Subdomains", description: "Tools and services hosted on Arcade Anvil" },
+    { level: 1, title: "Index", url: "https://index.arcadeanvil.com", description: "Site Index tool" },
+    { level: 1, title: "Shows", url: "https://shows.arcadeanvil.com", description: "Personal and Custom Watching Tool" },
+    { level: 1, title: "IMDb", url: "https://imdb.arcadeanvil.com", description: "Search and lookup tool" },
+    { level: 1, title: "Ireland", url: "https://ireland.arcadeanvil.com", description: "Ireland Map Tagging system" },
+    { level: 1, title: "Projects", url: "https://projects.arcadeanvil.com", description: "Projects and experiments" },
+    // Add level: 2 links directly below Projects when those pages exist.
+  ];
+
+  // This SVG is the white anvil on the right. You can replace it with your own image URL.
+  const backgroundImage = "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20430%20260%27%3E%3Cdefs%3E%3Cmask%20id%3D%27cut%27%3E%3Crect%20width%3D%27430%27%20height%3D%27260%27%20fill%3D%27white%27%2F%3E%3Ccircle%20cx%3D%27236%27%20cy%3D%2791%27%20r%3D%2731%27%20fill%3D%27black%27%2F%3E%3Crect%20x%3D%27229%27%20y%3D%27110%27%20width%3D%2715%27%20height%3D%27101%27%20fill%3D%27black%27%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%27%23ffffff%27%20stroke%3D%27%23080411%27%20stroke-width%3D%278%27%20stroke-linejoin%3D%27round%27%20paint-order%3D%27stroke%20fill%27%20mask%3D%27url%28%23cut%29%27%3E%3Cpath%20d%3D%27M24%2016%20H320%20V29%20Q320%2040%20329%2040%20Q337%2040%20337%2029%20V16%20H404%20V67%20H375%20C338%2067%20312%2078%20298%20105%20C282%20112%20271%20127%20270%20147%20C269%20167%20285%20181%20324%20193%20V219%20H328%20V223%20H136%20V196%20C169%20188%20191%20170%20191%20147%20C191%20124%20170%20109%20143%20108%20H126%20V89%20C77%2075%2042%2053%2024%2025%20Z%27%2F%3E%3Cpath%20d%3D%27M136%20194%20H328%20V223%20H136%20Z%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E";
+
+  document.getElementById("large-logo").src = backgroundImage;
+  document.getElementById("header-logo").src = backgroundImage;
+
+  // Everything below builds the tree automatically; no need to edit it.
+  const roots = [];
+  const stack = [];
+  for (const item of pages) {
+    if (!Number.isInteger(item.level) || item.level < 0 || item.level > stack.length) {
+      console.warn("Invalid nesting level; skipped entry:", item);
+      continue;
+    }
+    const node = { ...item, children: [] };
+    if (item.level === 0) roots.push(node);
+    else stack[item.level - 1].children.push(node);
+    stack.length = item.level;
+    stack.push(node);
+  }
+
+  const treeRoot = document.getElementById("tree");
+  const searchInput = document.getElementById("search");
+  function render(items, parent) {
+    const list = document.createElement("ul");
+    list.className = "tree" + (parent === treeRoot ? " tree-root" : "");
+    parent.appendChild(list);
+    for (const node of items) {
+      const li = document.createElement("li");
+      li.className = "node" + (node.children.length ? " node-folder" : "");
+      const head = document.createElement("div");
+      head.className = "node-head";
+      const toggle = document.createElement("button");
+      toggle.className = "toggle" + (node.children.length ? "" : " blank");
+      toggle.type = "button";
+      toggle.textContent = node.children.length ? "▾" : "";
+      toggle.setAttribute("aria-label", `Toggle ${node.title}`);
+      head.appendChild(toggle);
+      const icon = document.createElement("span");
+      icon.className = "node-icon";
+      icon.textContent = node.children.length || !node.url ? "📁" : "🌐";
+      icon.setAttribute("aria-hidden", "true");
+      head.appendChild(icon);
+      const body = document.createElement("div");
+      body.className = "node-body";
+      const title = document.createElement(node.url ? "a" : "span");
+      title.className = "node-title";
+      title.textContent = node.title;
+      if (node.url) { title.href = node.url; title.target = "_blank"; title.rel = "noopener noreferrer"; }
+      body.appendChild(title);
+      if (node.description) {
+        const desc = document.createElement("div");
+        desc.className = "node-description";
+        desc.textContent = node.description;
+        body.appendChild(desc);
+      }
+      if (node.url) {
+        const url = document.createElement("div");
+        url.className = "node-url";
+        url.textContent = node.url.replace(/^https?:\/\//, "");
+        body.appendChild(url);
+      }
+      head.appendChild(body);
+      li.appendChild(head);
+      list.appendChild(li);
+      if (node.children.length) {
+        const nested = render(node.children, li);
+        toggle.setAttribute("aria-expanded", "true");
+        toggle.addEventListener("click", () => {
+          const closed = nested.classList.toggle("hidden");
+          toggle.textContent = closed ? "▸" : "▾";
+          toggle.setAttribute("aria-expanded", String(!closed));
+        });
+      }
+      li.dataset.search = [node.title, node.description, node.url].filter(Boolean).join(" ").toLowerCase();
+    }
+    return list;
+  }
+  render(roots, treeRoot);
+
+  function filterTree(query) {
+    const q = query.trim().toLowerCase();
+    function visit(list) {
+      let visibleCount = 0;
+      for (const li of list.children) {
+        const nested = [...li.children].find(x => x.tagName === "UL");
+        const childMatches = nested ? visit(nested) > 0 : false;
+        const matches = li.dataset.search.includes(q);
+        const visible = !q || matches || childMatches;
+        li.classList.toggle("hidden", !visible);
+        if (visible) visibleCount++;
+        if (nested && q) {
+          nested.classList.remove("hidden");
+          const button = li.querySelector(":scope > .node-head > .toggle");
+          button.textContent = "▾";
+          button.setAttribute("aria-expanded", "true");
+        }
+      }
+      return visibleCount;
+    }
+    const count = visit(treeRoot.firstElementChild);
+    document.getElementById("empty").classList.toggle("hidden", count !== 0);
+  }
+  searchInput.addEventListener("input", e => filterTree(e.target.value));
+  function setAll(expanded) {
+    for (const li of treeRoot.querySelectorAll("li.node-folder")) {
+      const nested = [...li.children].find(x => x.tagName === "UL");
+      const button = li.querySelector(":scope > .node-head > .toggle");
+      nested.classList.toggle("hidden", !expanded);
+      button.textContent = expanded ? "▾" : "▸";
+      button.setAttribute("aria-expanded", String(expanded));
+    }
+  }
+  document.getElementById("expand").addEventListener("click", () => setAll(true));
+  document.getElementById("collapse").addEventListener("click", () => { searchInput.value = ""; filterTree(""); setAll(false); });
+</script>
+</body>
+</html>
